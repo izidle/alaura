@@ -1,0 +1,34 @@
+body {
+    background: url(img/tumblr_78925c2fd425157b66a5161bc410083f_0735c773_400.webp);
+    background-color: #6d3b69;
+    color: rgb(247, 241, 241);
+    font-family: "Silkscreen", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #0a0e05;
+    color: rgb(187, 168, 168);
+    font-family: "Silkscreen", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 42%;
+}
